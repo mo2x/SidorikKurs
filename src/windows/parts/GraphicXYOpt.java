@@ -1,7 +1,6 @@
-package window.parts;
+package windows.parts;
 
 import javax.swing.*;
-import javax.swing.border.TitledBorder;
 import java.awt.*;
 
 public class GraphicXYOpt extends WorkPanelPart {

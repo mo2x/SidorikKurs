@@ -1,7 +1,4 @@
-package window.parts;
-
-import Main.Program;
-import window.MainWindow;
+package windows.parts;
 
 import java.awt.*;
 

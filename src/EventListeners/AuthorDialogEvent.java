@@ -1,6 +1,6 @@
 package EventListeners;
 
-import window.parts.AboutAuthorDialog;
+import windows.AboutAuthorDialog;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;

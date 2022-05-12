@@ -1,4 +1,4 @@
-package window.parts;
+package windows.parts;
 
 import javax.swing.*;
 import java.awt.*;

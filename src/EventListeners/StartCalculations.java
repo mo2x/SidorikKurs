@@ -2,7 +2,7 @@ package EventListeners;
 
 import Main.Program;
 import Simulation.Simulation;
-import window.parts.InputComponent;
+import windows.parts.InputComponent;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;

@@ -1,10 +1,8 @@
-package window.parts;
+package windows.parts;
 
 import EventListeners.StartCalculations;
-import Main.Program;
 
 import javax.swing.*;
-import javax.swing.border.TitledBorder;
 import java.awt.*;
 
 public class InputComponent extends WorkPanelPart {

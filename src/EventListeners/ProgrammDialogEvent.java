@@ -1,6 +1,6 @@
 package EventListeners;
 
-import window.parts.AboutProgramDialog;
+import windows.AboutProgramDialog;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;

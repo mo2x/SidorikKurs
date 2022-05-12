@@ -1,7 +1,7 @@
 package EventListeners;
 
 import Main.Program;
-import window.parts.DatFileChooser;
+import windows.DatFileChooser;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;

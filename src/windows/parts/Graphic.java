@@ -1,4 +1,4 @@
-package window.parts;
+package windows.parts;
 
 import Main.Program;
 import org.jfree.chart.ChartFactory;
