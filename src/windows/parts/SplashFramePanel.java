@@ -1,8 +1,6 @@
 package windows.parts;
 
-import EventListeners.ActivityListener;
 import windows.SplashFrame;
-
 import javax.swing.*;
 import java.awt.*;
 

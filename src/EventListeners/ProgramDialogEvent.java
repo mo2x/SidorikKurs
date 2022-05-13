@@ -1,6 +1,5 @@
 package EventListeners;
 
-import windows.AboutAuthorDialog;
 import windows.AboutProgramDialog;
 
 import java.awt.event.ActionEvent;

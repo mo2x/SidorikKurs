@@ -1,6 +1,5 @@
 package Simulation;
 
-import Main.Program;
 import static Main.Program.dataManager;
 
 /**
