@@ -1,14 +1,19 @@
 package windows.parts;
 
+import EventListeners.ActivityListener;
+import windows.SplashFrame;
+
 import javax.swing.*;
 import java.awt.*;
-import java.net.URL;
 
 public class SplashFramePanel extends JPanel {
 
     private boolean isStartButtonClicked = false;
 
-    public SplashFramePanel() {
+    SplashFrame jFrame;
+
+    public SplashFramePanel(SplashFrame parent) {
+        this.jFrame = parent;
         initializeComponents();
     }
 
@@ -50,21 +55,9 @@ public class SplashFramePanel extends JPanel {
         panel.add(createBodyLabel(), constraints);
         constraints.gridwidth = 1;
         constraints.gridy = 2;
-        panel.add(createImageLabel(), constraints);
         constraints.gridx = 1;
         panel.add(createInfoLabel(), constraints);
         return panel;
-    }
-
-    private JLabel createImageLabel() {
-        ClassLoader loader = getClass().getClassLoader();
-        URL url = loader.getResource("program.jpg");
-        if (url == null) {
-            return new JLabel("Image not found");
-        }
-        Image image = new ImageIcon(url).getImage();
-        Image scaledImage = image.getScaledInstance(300, 127, Image.SCALE_SMOOTH);
-        return new JLabel(new ImageIcon(scaledImage));
     }
 
     private JLabel createHeadLabel() {
@@ -99,6 +92,8 @@ public class SplashFramePanel extends JPanel {
 
     private void clickStartButton() {
         isStartButtonClicked = !isStartButtonClicked;
+        jFrame.start();
+
     }
 }
 

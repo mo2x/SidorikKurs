@@ -9,6 +9,11 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.ObjectOutputStream;
 
+/**
+ * создает {@link DatFileChooser} для сохранения данных
+ * @author Borodovsky A.A
+ * @version 1.0
+ */
 public class SaveDat implements ActionListener {
     @Override
     public void actionPerformed(ActionEvent e) {

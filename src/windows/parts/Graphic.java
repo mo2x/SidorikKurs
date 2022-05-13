@@ -12,6 +12,11 @@ import java.awt.*;
 
 import static Main.Program.dataManager;
 
+/**
+ * класс обращается к {@link DataManager.DataManager} и отрисоывает график на осное полученных данных
+ * @author Borodovsky A.A
+ * @version 1.0
+ */
 public class Graphic extends JPanel {
 
     public JFreeChart chart = ChartFactory.createXYLineChart(

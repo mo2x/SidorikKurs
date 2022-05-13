@@ -1,5 +1,10 @@
 package Simulation;
 
+/**
+ * класс объекта, который описывает физический объект с приложенной к нему скоростью
+ * @author Borodovsky A.A
+ * @version 1.0
+ */
 public class PhysicalObj {
     private double weight;
     private Vector velocity;

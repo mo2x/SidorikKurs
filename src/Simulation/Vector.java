@@ -1,5 +1,10 @@
 package Simulation;
 
+/**
+ * класс который описывает вектор и применяется для описания скорости {@link Simulation}
+ * @author Borodovsky A.A
+ * @version 1.0
+ */
 public class Vector {
     private double x;
     private double y;

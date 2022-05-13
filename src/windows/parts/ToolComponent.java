@@ -3,6 +3,12 @@ package windows.parts;
 import javax.swing.*;
 import java.awt.*;
 
+/**
+ * Класс содержит в себе объекты унаследованные от {@link WorkPanelPart}
+ * имеет в себе инструменты для работы с программой
+ * @author Borodovsky A.A
+ * @version 1.0
+ */
 public class ToolComponent extends JPanel {
     public InputComponent inputComponent = new InputComponent();
     public GraphicXYOpt graphicXYOpt = new GraphicXYOpt();

@@ -3,6 +3,11 @@ package windows;
 import javax.swing.*;
 import java.awt.*;
 
+/**
+ * класс описывает диологовое окно с информацией об авторе
+ * @author Borodovsky A.A
+ * @version 1.0
+ */
 public class AboutAuthorDialog extends JDialog {
     public AboutAuthorDialog(){
         setLayout(new BorderLayout());

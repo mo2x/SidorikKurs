@@ -8,6 +8,11 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.*;
 
+/**
+ * создает {@link DatFileChooser} для загрузки данных
+ * @author Borodovsky A.A
+ * @version 1.0
+ */
 public class LoadDat implements ActionListener {
     @Override
     public void actionPerformed(ActionEvent e) {

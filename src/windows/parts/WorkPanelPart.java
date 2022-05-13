@@ -4,6 +4,11 @@ import javax.swing.*;
 import javax.swing.border.TitledBorder;
 import java.awt.*;
 
+/**
+ * абстрактный класс состовляющих {@link ToolComponent}
+ * @author Borodovsky A.A
+ * @version 1.0
+ */
 public abstract class WorkPanelPart extends JComponent {
     TitledBorder title;
     String titleName;

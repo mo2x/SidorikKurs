@@ -4,7 +4,12 @@ import EventListeners.StartCalculations;
 
 import javax.swing.*;
 import java.awt.*;
-
+/**
+ * компонент, который содержит в себе окна для ввода начальных данных броска
+ * и кнопку для начала рассчета
+ * @author Borodovsky A.A
+ * @version 1.0
+ */
 public class InputComponent extends WorkPanelPart {
 
     private final TextField tFWeight = new TextField();

@@ -6,6 +6,12 @@ import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
+/**
+ * Класс событие обрабатывает ывход из приложения
+ * и предлагает сохранить данные, если этого небыло сделанно
+ * @author Borodovsky A.A
+ * @version 1.0
+ */
 public class ExitAction implements ActionListener {
     @Override
     public void actionPerformed(ActionEvent e) {

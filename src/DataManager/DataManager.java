@@ -10,6 +10,13 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * Серриализуемый класс и является статическим в программе,
+ * содержит в себе сохраненноые о симулации данные и создает {@link XYDataset}
+ * для использоания его в {@link windows.parts.Graphic}
+ * @author Borodovsky A.A
+ * @version 1.0
+ */
 public class DataManager implements Serializable {
     public boolean isSaved = false;
     public Map<String, ArrayList<Double>> dataMap = new HashMap<>();

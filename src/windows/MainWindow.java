@@ -8,6 +8,13 @@ import java.awt.*;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 
+/**
+ * Основное окно приложения
+ * имеет {@link ToolComponent}, {@link Graphic} и самостоятельно делает {@link JMenuBar}
+ * @author Borodovsky A.A
+ * @version 1.0
+ */
+
 public class MainWindow extends JFrame {
 
     public Graphic simulationWin = new Graphic();
@@ -35,7 +42,7 @@ public class MainWindow extends JFrame {
         menuBar.add(help);
         aboutAuthor.addActionListener(new AuthorDialogEvent());
         help.add(aboutAuthor);
-        aboutProgram.addActionListener(new ProgrammDialogEvent());
+        aboutProgram.addActionListener(new ProgramDialogEvent());
         help.add(aboutProgram);
         setJMenuBar(menuBar);
 

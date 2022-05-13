@@ -2,6 +2,11 @@ package windows.parts;
 
 import java.awt.*;
 
+/**
+ * часть {@link ToolComponent} которая содержит в себе дополнительные данные о движении объекта
+ * @author Borodovsky A.A
+ * @version 1.0
+ */
 public class SimData extends WorkPanelPart{
     double max = 0;
     double timeD = 0;

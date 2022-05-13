@@ -2,7 +2,11 @@ package windows.parts;
 
 import javax.swing.*;
 import java.awt.*;
-
+/**
+ * часть {@link ToolComponent} которая настраивает оси графика
+ * @author Borodovsky A.A
+ * @version 1.0
+ */
 public class GraphicXYOpt extends WorkPanelPart {
     String[] data  = new String[] {"X","Y","Линейная скорость","Скорость по X","Скорость по Y","Время"};
     public final JComboBox<String> nameX = new JComboBox<>(data);

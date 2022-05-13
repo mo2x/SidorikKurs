@@ -1,9 +1,13 @@
 package Simulation;
 
 import Main.Program;
-
 import static Main.Program.dataManager;
 
+/**
+ * Класс симуляции броска физического объекта {@link PhysicalObj}
+ * @author Borodovsky A.A
+ * @version 1.0
+ */
 public class Simulation {
     PhysicalObj obj = new PhysicalObj();
     final double G = 9.82;

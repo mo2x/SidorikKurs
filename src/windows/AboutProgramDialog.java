@@ -3,6 +3,11 @@ package windows;
 import javax.swing.*;
 import java.awt.*;
 
+/**
+ * класс описывает диологовое окно с информацией о программе
+ * @author Borodovsky A.A
+ * @version 1.0
+ */
 public class AboutProgramDialog extends JDialog {
     public AboutProgramDialog(){
         setLayout(new BorderLayout());
@@ -14,7 +19,7 @@ public class AboutProgramDialog extends JDialog {
                 new JLabel("Программа для"),
                 new JLabel("рассчета движения в однородном гравитационном поле:"),
                 new JLabel("В данной программе вы можете ввести данные броска физического"),
-                new JLabel("объекта и арссчитать его траекторию движения до падения"),
+                new JLabel("объекта и рассчитать его траекторию движения до падения"),
                 new JLabel("Результаты вычислений вы можете сохранять и загружать")
         };
 
